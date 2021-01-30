@@ -1,0 +1,271 @@
+body,ul,li{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.nav-bar{
+	background-color:#262835;
+	height: 55px;
+}
+.nav-bar a{
+	color: #b0b0b0;
+	font-size: 18px;
+}
+.bar-frist{
+	margin: 0 auto;
+	width: auto;
+}
+.bar-frist::before,.bar-frist::after{
+	content: "";
+	display: table;
+}
+.bar-frist::after{
+	clear: both;
+}
+.frist-link{
+	float: left;
+	height: 40px;
+	line-height: 50px;
+	font-size: 0;
+	padding-left: 10%;
+}
+.frist-link span{
+	font-size: 12px;
+	color: #424242;
+	font-family: sans-serif;
+	margin: 0.5em;
+}
+.second-link{
+	float: right;
+	padding-right: 5%;
+}
+.third-link{
+	float: right;
+}
+
+.second-link a{
+	position: relative;
+}
+.second-link a img{
+	display: none;
+	position: absolute;
+	margin-top: 5px;
+}
+.second-link a:hover img{
+	display: block;
+}
+.frist-link a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.third-link a:hover{
+	color: #fff;
+}
+.second-link a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 120px;
+	background-color:#262835;
+}
+.second-link a:hover{
+	background-color: rgb(66, 71, 82);
+	color: #FFFFFF;
+}
+.second-link span{
+	margin-left: -4px;
+	font-size: 12px;
+	line-height: 50px;
+}
+.third-link a{
+	float: left;
+	padding: 0 5px;
+	line-height: 50px;
+	height: 40px;
+	text-decoration: none;
+}
+.third-link span{
+	float: left;
+	font-family: sans-serif;
+	color: #424242;
+	line-height: 50px;
+	height: 40px;
+}
+.head-box{
+	height:154px;
+	background:url(../img/head-bg2.jpg) no-repeat;
+}
+.head-top{
+	height: 104px;
+}
+.head-logo{
+	opacity: 0.3;
+	height: 70px;
+	width: 69;
+	float: left;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+.head-theme{
+	margin-top: 45px;
+	float: left;
+	height: 84px;
+	width: 300px;
+}
+.head-theme img{
+	width: 180px;
+	height: 84px;
+}
+.head-search{
+	float: right;
+	width: 260px;
+	height: 40px;
+	margin-right: 120px;
+	margin-top: 20px;
+}
+.head-search .search-form{
+	display: block;
+	width: 260px;
+	height: 40px;
+}
+.head-search .search-form .search-text{
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	outline: none;
+	border:1px #DDDDDD solid;
+}
+.head-search .search-form .search-btn{
+	float: right;
+	width: 40px;
+	height: 40px;
+	outline: none;
+	border:1px #F1F1F1 solid;
+}
+.head-search .search-form .search-btn:hover{
+	background-color:#B0B0B5;
+}
+.head-footer{
+	height: 50px;
+	text-align: center;
+}
+.head-footer ul li{
+	display: inline;
+	padding: 5px;
+}
+.head-footer ul li a:hover{
+	text-decoration: none;
+}
+
+#container-fluid{
+	margin-left: 150px ;
+	margin-right: 150px;
+}
+
+/*下面是三个推荐*/
+.news-wrap {
+    width: 1200px;
+    height: 356px;
+    font-size: 0.9em;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.news-hd{
+    display: block;
+    width: 344px;
+    height: 230px;
+    background-color: #fff;
+}
+.news-bd {
+    text-align: left;
+    width: 344px;
+    height: 102px;
+    background: #f3f5f6;
+}
+.news-item {
+    display: inline-block;
+    width: 344px;
+    padding: 7px;
+}
+.bg1{
+		width:344px;
+		height:230px;
+    background: url(../img/python-logo.jpg) no-repeat;
+    
+}
+.bg2{
+	width:344px;
+	height:230px;
+	background: url(../img/c-logo.jpg) no-repeat;
+}
+.bg3{
+	width:344px;
+	height:230px;
+	background: url(../img/java-logo.jpg) no-repeat;
+}
+.news-list{
+	padding: 20px;
+}
+/*下面是轮播图*/
+
+.item img{
+	width: 100%;
+}
+/*以下是推荐区*/
+.section-page{
+	width: auto;
+	height: auto;
+	margin: 0 0 60px 15px;
+	background-color: #F0F0F0;
+	border-radius: 0px 15px 15px 0px;
+}
+.col-md-4{
+	padding: 0px;
+}
+.tab-pane{
+	background-color: white;
+}
+
+/*以下是友情链接*/
+#footer{
+	background-color:#262835;
+	height: 100px;
+}
+.footer-link{
+	float:right;
+	
+}
+#footer h1{
+	color: #B0B0B0;
+	text-align: left;
+	font-size:15px ;
+	margin-top: 0px;
+}
+#footer li{
+	display: inline;
+	font-size: 15px;
+	color: #B0B0B0;
+}
+#footer li a{
+	color: #B0B0B0;
+	text-decoration: none;
+}
+#footer li a:hover{
+	color: #fff;
+}
+.footer-main{
+	margin-left: 150px;
+}
+#footer span{
+	margin: 0.5em;
+}
+.luzi{
+	overflow:hidden;
+}

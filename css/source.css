@@ -1,0 +1,70 @@
+#body-attribute{
+	background-color: #F1F1F1;
+}
+/*下面是左侧导航栏*/
+#nav-left{
+	width: 150px;
+	height: auto;
+	float: left;
+	position: fixed;
+}
+#nav-left li a{
+	text-decoration: none;
+	font-size: 20px;
+	width: 150px;
+	height: 28px;
+	color: black;
+}
+#nav-left li{
+	margin-left:60px ;
+	margin-top: 5px;
+}
+#nav-left li a:hover{
+	color: #787878;
+}
+/*下面是主页部分*/
+#container-page{
+	width: auto;
+	height: auto;
+	margin-left:220px;
+	margin-right: 150px;
+	margin-top: 50px;
+	overflow: hidden;
+}
+#container-page h1{
+	margin: 0px;
+}
+.summary{
+	border:2px solid #787878;
+	font-family: "楷体";
+	font-size: 20px;
+	border-radius: 15px 15px 15px 15px;
+}
+/*下面是目录*/
+.content{
+	border:2px solid #787878;
+	font-family: "楷体";
+	font-size: 20px;
+	border-radius: 15px 15px 15px 15px;
+	margin-top: 5px;
+}
+.content a:hover{
+	text-decoration: none;
+}
+.small-content{
+	padding: 0 0 0 50px;
+}
+/*下面是放置题目核心代码的地方*/
+.core-code{
+	margin:20px 0 15px 0;
+	width: auto;
+	height: auto;
+	border:2px solid #787878;
+	border-radius: 15px 15px 15px 15px;
+}
+.core-code img{
+	padding: 10px;
+}
+.core-code h4{
+	padding: 20px;
+}
